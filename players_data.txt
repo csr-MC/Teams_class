@@ -1,0 +1,10 @@
+M_S_Dhoni	Male	39	Captain	WicketKeeperBatsman	DL	IND
+Rohit_Sharma	Male	31	Team_players	Batsman	KA	IND
+K_L_Rahul	Male	33	Team_players	Batsman	AP	IND
+Jasprit_Bumrah	Male	27	Team_players	Bowler	TN	IND
+Ravindra_Jadeja	Male	26	Team_players	Allrounder	UP	IND
+Hardik_Pandya	Male	29	Team_players	Allrounder	KA	IND
+Irfan_Pathan	Male	40	Team_players	Allrounder	UP	IND
+Zahir_Khan	Male	34	Team_players	Bowler	TN	IND
+Kuldeep_Yadav	Male	21	Team_players	Bowler	DL	IND
+Hardik_Pandya	Male	28	Team_players	Allrounder	TS	IND
