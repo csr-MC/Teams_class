@@ -12,14 +12,12 @@ public class Team {
     private List<Player> players = new ArrayList<>();
 
 
-    public Team(String teamName, String fileName) throws IOException {
-       fileReader(teamName,fileName);
-    }
 
 
 
 
-    private void fileReader(String TeamName,String fileName) throws IOException {
+
+    public void fileReader(String TeamName,String fileName) throws IOException {
 
 
         this.teamName = TeamName;
@@ -31,9 +29,13 @@ public class Team {
         while ((line = bufferedReader.readLine())!= null){
 
             String[] s = line.split("\\t+");
+            Player player = null;
+
+            if(s.length==7)
+             player = new Player(s[0],s[1],Integer.parseInt(s[2]),s[3],s[4],s[5],s[6]);
+            else continue;
 
 
-            Player player = new Player(s[0],s[1],Integer.parseInt(s[2]),s[3],s[4],s[5],s[6]);
             players.add(player);
 
 
@@ -60,10 +62,6 @@ public class Team {
 
 
     }
-
-
-
-
 
 
 
